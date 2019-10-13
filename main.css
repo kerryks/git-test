@@ -11,7 +11,7 @@ ul li {
 }
 
 .header {
-  background: #27273e
+  background: #27273e;
 }
 .container {
   margin: 0 auto;
@@ -50,5 +50,8 @@ ul li {
 
 .banner {
   margin-bottom: 67px;
+}
+
+.banner_coworking {
   width: 100%;
 }
