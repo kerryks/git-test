@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+}
+
+ul {
+margin: 0;
+padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.header {
+  background: #27273e
+}
+.container {
+  margin: 0 auto;
+  width: 1067px;
+}
+.header__container {
+  position: relative;
+  height: 76px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.contacts {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: right;
+}
+.contacts__phone {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contacts__text {
+  color: #ec1e79;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.banner {
+  height: 359px;
+  margin-bottom: 67px;
+}
