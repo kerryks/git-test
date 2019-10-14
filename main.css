@@ -14,12 +14,14 @@ ul li {
   background: #27273e;
 }
 .container {
+  position: relative;
   margin: 0 auto;
   width: 1067px;
 }
 .header__container {
   position: relative;
   height: 76px;
+  text-decoration: ;
 }
 
 .logo {
@@ -39,6 +41,7 @@ ul li {
   font-size: 21px;
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .contacts__text {
@@ -56,4 +59,37 @@ ul li {
   width: 100%;
 }
 
+.sidebar {
+  display: inline-block;
+}
+
+.main-content {
+  display: inline-block;
+}
+
+.nav__list {
+  margin: 20px;
+}
+
+.nav__title {
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  padding: 19px;
+  color: #ec1e79;
+}
+
+
+.main-content {
+  position: relative;
+  transform: translate(20%,-15%);
+}
+.base__desc {
+  display: inline-block;
+}
+
+.h2 {
+  color: #221f1f;
+  font-weight: bold;
+}
 
