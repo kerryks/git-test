@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,8 +29,8 @@
         <aside class="sidebar">
           <nav class="nav">
             <ul class="nav__list">
-              <li class="nav__item nav__item--active">
-                <a href="#" class="nav__link">
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link--active">
                   <img src="./img/icon/main_icon.png" alt="" class="nav__icon">
                   <div class="nav__title">главная</div>
                 </a>
@@ -52,53 +51,52 @@
           </nav>
         </aside>
         <div class="main-content">
-          <div class="base">
-            <div class="base__header">
-              <div class="base__title">
+          <section class="base">
+              <div class="title">
                 <h2>Особенности</h2>
               </div>
-              <div class="base__desc">
-                <div class="base__plus">
+              <ul class="base__desc">
+                <li class="base__plus">
                   <img class="base__icon" src="./img/icon/flower.png" alt="иконка">
                   <div class="base__spec">
-                      <h5>уникальность</h5>
-                      <p>Создан для вашего комфортного отдыха</p>
-                  </div>
-                      <ul class="base__list">
+                    <h5>уникальность</h5>
+                    <p>Создан для вашего комфортного отдыха</p>
+                    <ul class="base__list">
                         <li>Кофе/чай</li>
                         <li>Шкаф (5 кг)</li>
                         <li>Рабочее место</li>
-                      </ul>
-                </div>
-                <div class="base__plus">
+                    </ul>
+                  </div>
+                </li>
+                <li class="base__plus">
                   <img class="base__icon" src="./img/icon/mark-as-favorite-star.png" alt="иконка">
                   <div class="base__spec">
-                      <h5>премиум-класс</h5>
-                      <p>Для любителей хороших впечатлений</p>
-                  </div>
-                      <ul class="base__list">
+                    <h5>премиум-класс</h5>
+                    <p>Для любителей хороших впечатлений</p>
+                    <ul class="base__list">
                         <li>Обед+кофе</li>
                         <li>Шкаф (10 кг)</li>
                         <li>Детское кресло</li>
                       </ul>
-                </div>
-                <div class="base__plus">
+                  </div>
+                  
+                </li>
+                <li class="base__plus">
                   <img class="base__icon" src="./img/icon/painter-palette.png" alt="иконка">
                   <div class="base__spec">
-                      <h5>лакшери-стулья</h5>
-                      <p>Всё самое лучшее и незабываемое</p>
-                  </div>
-                      <ul class="base__list">
+                    <h5>лакшери-стулья</h5>
+                    <p>Всё самое лучшее и незабываемое</p>
+                    <ul class="base__list">
                         <li>Джакузи</li>
                         <li>Шкаф (15 кг)</li>
                         <li>Табуретка</li>
                       </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="news">
-            <div class="news__title">
+                  </div>
+                </li>
+              </ul>
+          </section>
+          <section class="news">
+            <div class="title">
               <h2>Последние новости</h2>
             </div>
             <ul class="news__list">
@@ -143,7 +141,8 @@
               <div class="pagination__display">Страница 1 из 7</div>
               <div class="pagination__controls">
                 <a href="#" class="pagination__button-prev">
-                  <</a> <ul class="paginatio__list">
+                  <</a> 
+                  <ul class="pagination__list">
                     <li class="pagination__item">
                       <a href="#" class="pagination__link">1</a>
                     </li>
@@ -169,8 +168,7 @@
                     <a href="#" class="pagination__button-next">></a>
               </div>
             </div>
-          </div>
-
+          </section>
         </div>
       </div>
     </div>
@@ -200,5 +198,4 @@
     </a>
   </div>
 </body>
-
 </html>
