@@ -22,38 +22,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Roboto";
-  src: url(./fonts/roboto-bold-webfont.woff2) format('woff2'),
-       url(./fonts/roboto-bold-webfont.woff) format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url(./fonts/roboto-bolditalic-webfont.woff2) format('woff2'),
-       url(./fonts/roboto-bolditalic-webfont.woff) format('woff');
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url(./fonts/roboto-light-webfont.woff2) format('woff2'),
-       url(./fonts/roboto-light-webfont.woff) format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url(./fonts/roboto-lightitalic-webfont.woff2) format('woff2'),
-       url(./fonts/roboto-lightitalic-webfont.woff) format('woff');
-  font-weight: 300;
-  font-style: italic;
-}
-
 body {
   font-family: GothamPro;
   margin: 0px;
@@ -189,6 +157,16 @@ ul li {
   text-align: center;
 }
 
+.base__list {
+  text-align: left;
+}
+
+.base__list li::before {
+  color: #ec1e79;
+  content: "•"; 
+  padding-right: 30px;
+}
+
 .news__list,
 .pagination {
   font-family: Roboto;
@@ -227,6 +205,9 @@ ul li {
 
 .pagination__list {
   display: inline-block;
+  font-size: 14px;
+  line-height: 21px;
+
 }
 
 .pagination__link,
@@ -234,12 +215,21 @@ ul li {
 .pagination__button-next {
   color: #221f1f;
   text-decoration: none;
+  padding: 10px;
+  border-radius: 10%;
 }
 
-.pagination__link .pagination__link--active {
+.pagination__item--active {
   background-color: #27273e;
-  color: #ffffff;
   font-weight: bold;
+  border-radius: 20%;
+}
+
+.pagination__link--active {
+  color: #ffffff;
+  font-weight: 300;
+  height: 9px;
+
 }
 
 .footer {
