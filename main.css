@@ -229,6 +229,19 @@ ul li {
   display: inline-block;
 }
 
+.pagination__link,
+.pagination__button-prev,
+.pagination__button-next {
+  color: #221f1f;
+  text-decoration: none;
+}
+
+.pagination__link .pagination__link--active {
+  background-color: #27273e;
+  color: #ffffff;
+  font-weight: bold;
+}
+
 .footer {
   display: inline-block;
   position: relative;
