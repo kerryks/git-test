@@ -1,0 +1,16 @@
+.header {
+  background: #27273e;
+  font-weight: bold;
+}
+
+.header__container {
+  position: relative;
+  height: 76px;
+  text-decoration:none;
+}
+
+.header__logo {
+  position: absolute;
+  top: 13px;
+  left: 19px;
+}

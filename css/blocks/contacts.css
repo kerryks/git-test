@@ -1,0 +1,20 @@
+.contacts {
+  position: absolute;
+  right: 21px;
+  top: 22px;
+  text-align: right;
+}
+.contacts__phone {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contacts__text {
+  color: #ec1e79;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
