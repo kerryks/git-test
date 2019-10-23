@@ -4,13 +4,14 @@
 }
 
 .header__container {
-  position: relative;
-  height: 76px;
   text-decoration:none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  margin-bottom: 50px;
 }
 
-.header__logo {
-  position: absolute;
-  top: 13px;
-  left: 19px;
+.logo__pic {
+
 }

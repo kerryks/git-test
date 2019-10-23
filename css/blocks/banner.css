@@ -1,4 +1,9 @@
+.banner {
+  display: flex;
+}
+
 .banner__coworking {
-  height: 360px;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #27273e;
 }

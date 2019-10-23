@@ -38,11 +38,13 @@
 } */
 
 .footer {
+  position: relative;
   display: flex;
   background: #27273e;
   justify-content: space-around;
-  align-items: center;
+  align-items: ;
   flex-grow: inherit;
+  width: 100%;
 } 
 
 .footer__link-pic {

@@ -1,9 +1,3 @@
-
 .main-content {
-  display: inline-block;
-}
-
-.main-content {
-  position: relative;
-  transform: translate(20%,-15%);
+  width: 70%;
 }

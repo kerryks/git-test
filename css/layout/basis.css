@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  font-family: 'GothamPro';
+  font-family: 'Gotham Pro';
   margin: 0px;
   font-size: 16px;
   line-height: 1.42;
@@ -14,8 +14,30 @@ ul {
   padding: 0;
 }
 
-ul li {
+ul li, li {
   list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: bold;
+}
+h2 {
+  font-size: 49px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .wrapper {
@@ -31,25 +53,21 @@ ul li {
 }
 
 .container {
-  position: relative;
-  margin: 0 auto;;
-}
-button {
-  border: none;
-  cursor: pointer;
+  display: flex;
+  margin: 0 auto;
+  width: 1040px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  font-weight: normal;
+.page-content {
+  font-family: 'Gotham Pro';
+
+}
+.main-content {
+  flex: 1;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+.page-content__container {
+  display: flex;
 }
 
-* {
-  box-sizing: border-box;
-}
 
