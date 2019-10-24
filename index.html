@@ -7,8 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Главная страница</title>
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap">
-
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -27,34 +26,34 @@
 
     <div class="page-content">
       <div class="banner">
-          <img src="./img/Banner.png" alt="" class="banner__coworking">
-        </div>
+        <img src="./img/Banner.png" alt="" class="banner__coworking">
+      </div>
       <div class="container page-content__container">
-        
+
         <div class="container">
 
           <aside class="sidebar">
             <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                      <a href="#" class="nav__link nav__link--active">
-                        <img src="./img/icon/sidebar/main_icon.png" alt="иконка" class="nav__icon">
-                        <a href="index.html" class="nav__title">главная</a>
-                      </a>
-                    </li>
-                    <li class="nav__item">
-                      <a href="#" class="nav__link">
-                        <img src="./img/icon/sidebar/feed_icon.png" alt="иконка" class="nav__icon">
-                        <a href="comments.html" class="nav__title">отзывы</a>
-                      </a>
-                    </li>
-                    <li class="nav__item">
-                      <a href="#" class="nav__link">
-                        <img src="./img/icon/sidebar/wallet_icon.png" alt="иконка" class="nav__icon">
-                        <a href="price.html" class="nav__title">тарифы</a>
-                      </a>
-                    </li>
-                  </ul>
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--active">
+                    <img src="./img/icon/sidebar/main_icon.png" alt="иконка" class="nav__icon">
+                    <a href="index.html" class="nav__title">главная</a>
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">
+                    <img src="./img/icon/sidebar/feed_icon.png" alt="иконка" class="nav__icon">
+                    <a href="comments.html" class="nav__title">отзывы</a>
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">
+                    <img src="./img/icon/sidebar/wallet_icon.png" alt="иконка" class="nav__icon">
+                    <a href="price.html" class="nav__title">тарифы</a>
+                  </a>
+                </li>
+              </ul>
             </nav>
           </aside>
           <main class="main-content">
@@ -64,7 +63,9 @@
               </div>
               <ul class="base__features">
                 <li class="base__plus">
-                  <img class="base__icon" src="./img/icon/flower.png" alt="иконка">
+                  <div class="base__logo">
+                    <img class="base__icon" src="./img/icon/flower.png" alt="иконка">
+                  </div>
                   <div class="base__spec">
                     <div class="base__desc">
                       <h5>уникальность</h5>
@@ -78,7 +79,9 @@
                   </div>
                 </li>
                 <li class="base__plus">
-                  <img class="base__icon" src="./img/icon/mark-as-favorite-star.png" alt="иконка">
+                  <div class="base__logo">
+                    <img class="base__icon" src="./img/icon/mark-as-favorite-star.png" alt="иконка">
+                  </div>
                   <div class="base__spec">
                     <div class="base__desc">
                       <h5>премиум-класс</h5>
@@ -92,7 +95,9 @@
                   </div>
                 </li>
                 <li class="base__plus">
-                  <img class="base__icon" src="./img/icon/painter-palette.png" alt="иконка">
+                  <div class="base__logo">
+                    <img class="base__icon" src="./img/icon/painter-palette.png" alt="иконка">
+                  </div>
                   <div class="base__spec">
                     <div class="base__desc">
                       <h5>лакшери-стулья</h5>
@@ -197,30 +202,54 @@
       </div>
     </div>
     <div class="footer">
-        <div class="footer__sign">Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool.Автор работы:
-          Колесник Карина
-        </div>
-        <a href="/" class="footer__logo">
-          <img src="./img/logo-fig.png" class="footer__logo--pic" alt="Логотип коворкинга">
-        </a>
-        <div class="footer__links">Наши социальные сети</div>
-        <a href="//vk.com" class="footer__link" target="_blank" title="vk">
-          <img src="./img/icon/social/vk.png" alt="vk" class="footer__link-pic">
-        </a>
-        <a href="//facebook.com" class="footer__link" target="_blank" title="facebook">
-          <img src="./img/icon/social/fb.png" alt="facebook" class="footer__link-pic">
-        </a>
-        <a href="//google.com" class="footer__link" target="_blank" title="google">
-          <img src="./img/icon/social/google.png" alt="google" class="footer__link-pic">
-        </a>
-        <a href="//twitter.com" class="footer__link" target="_blank" title="twitter">
-          <img src="./img/icon/social/twitter.png" alt="twitter" class="footer__link-pic">
-        </a>
-        <a href="mailto:kerryks@ya.ru" class="foote" target="_blank" title="mail">
-          <img src="./img/icon/social/mail.png" alt="mail" class="footer__link-pic">
-        </a>
+      <div class="footer__sign">
+        <p>Cделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool.Автор работы: Колесник Карина</p>
       </div>
-  </div>
+
+      <a href="/" class="footer__logo">
+        <img src="./img/logo-fig.png" class="footer__logo--pic" alt="Логотип коворкинга">
+      </a>
+      <div class="footer__social">
+        <p>Наши социальные сети</p>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="//vk.com" class="footer__link" target="_blank" title="vk">
+              <div class="footer__img footer__img--active">
+                <img src="./img/icon/social/vk.png" alt="vk" class="footer__link-pic">
+              </div>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="//facebook.com" class="footer__link" target="_blank" title="facebook">
+              <div class="footer__img">
+                <img src="./img/icon/social/fb.png" alt="facebook" class="footer__link-pic">
+              </div>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="//google.com" class="footer__link" target="_blank" title="google">
+              <div class="footer__img">
+                <img src="./img/icon/social/google.png" alt="google" class="footer__link-pic">
+              </div>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="//twitter.com" class="footer__link" target="_blank" title="twitter">
+              <div class="footer__img">
+                <img src="./img/icon/social/twitter.png" alt="twitter" class="footer__link-pic">
+              </div>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="mailto:kerryks@ya.ru" class="footer__link" target="_blank" title="mail">
+              <div class="footer__img">
+                <img src="./img/icon/social/mail.png" alt="mail" class="footer__link-pic">
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
 </body>
 
 </html>
