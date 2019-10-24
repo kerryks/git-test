@@ -1,0 +1,47 @@
+.base {
+  font-weight: bold;
+  color: #221f1f;
+}
+
+.base__features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.base__plus {
+  width: 190px;
+  text-align: center;
+}
+
+.base__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #27273e;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 0;
+}
+
+.base__icon {
+  height: 20px;
+}
+
+.base__desc ,
+.base__list {
+  font-weight: 300;
+  text-align: center;
+}
+
+.base__list {
+  text-align: left;
+}
+
+.base__list li::before {
+  color: #ec1e79;
+  content: "•"; 
+  padding-right: 30px;
+}

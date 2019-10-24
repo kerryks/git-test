@@ -1,0 +1,19 @@
+
+.nav__link,
+.nav__title {
+  text-decoration: none;
+}
+.nav__item {
+  margin-bottom: 38px;
+}
+
+.nav__title {
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  color: #ec1e79;
+}
+
+.nav__link--active .nav__title{
+  color: #222222;
+}

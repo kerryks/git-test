@@ -1,0 +1,17 @@
+.header {
+  background: #27273e;
+  font-weight: bold;
+}
+
+.header__container {
+  text-decoration:none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  margin-bottom: 50px;
+}
+
+.logo__pic {
+
+}

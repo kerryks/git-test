@@ -1,0 +1,19 @@
+@import url('./layout/fonts.css');
+@import url('layout/normalize.css');
+@import url('./layout/basis.css');
+
+@import url('./blocks/header.css');
+@import url('./blocks/contacts.css');
+@import url('./blocks/banner.css');
+@import url('./blocks/sidebar.css');
+@import url('./blocks/breadcrumbs.css');
+@import url('./blocks/nav.css');
+@import url('./blocks/main-content.css');
+@import url('./blocks/base.css');
+@import url('./blocks/title.css'); /*может его можно тоже положить в basis?*/
+@import url('./blocks/news.css');
+@import url('./blocks/rate.css');
+@import url('./blocks/rew.css');
+@import url('./blocks/pair.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/footer.css');

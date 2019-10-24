@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  background: #27273e;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: inherit;
+  width: 100%;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.footer__sign {
+  width: 260px;
+  color: #ffffff;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.footer__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d4d4d8;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+.footer__img--active{
+  background-color: #ec1e79;
+}

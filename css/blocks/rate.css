@@ -1,0 +1,34 @@
+.rate {
+  margin-bottom: 70px;
+}
+
+.rate__options {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.rate__ver {
+  flex: 1 1 250px;
+  text-align: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.rate__desc h3 {
+  height: 153px;
+  color: #5dd1f8;
+  background-color: #27273e;
+  border-radius: 3%;
+  
+}
+
+.rate__desc h5 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+.rate__desc p {
+  font-weight: 300;
+}

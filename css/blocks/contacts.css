@@ -1,0 +1,18 @@
+.contacts {
+  text-align: right;
+  font-style: normal;
+}
+.contacts__phone {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contacts__text {
+  color: #ec1e79;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}

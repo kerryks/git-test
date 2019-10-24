@@ -1,0 +1,14 @@
+
+.pair__list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+  flex-flow: row wrap;
+}
+
+.pair__item {
+  width: 150px;
+  height: 150px;
+  padding: 1%;
+}
+

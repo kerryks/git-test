@@ -1,0 +1,21 @@
+.news__list {
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.news__pic{
+  border-radius: 50%;
+  position: absolute;
+  height: 160px;
+}
+
+.news__desc {
+  margin-left: 200px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+.news__date {
+  color: #656464;
+  font-size: 14px;
+}

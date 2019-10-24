@@ -1,12 +1,255 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Главная страница</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  
+  <div class="wrapper">
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" class="logo">
+          <img src="./img/logo-fig.png" class="logo__pic" alt="Логотип коворкинга">
+        </a>
+        <address class="contacts">
+          <a href="tel:+78000039210" class="contacts__phone"> 8 (800) 00-392-10</a>
+          <div class="contacts__text">График работы</div>
+        </address>
+      </div>
+    </header>
+
+    <div class="page-content">
+      <div class="banner">
+        <img src="./img/Banner.png" alt="" class="banner__coworking">
+      </div>
+      <div class="container page-content__container">
+
+        <div class="container">
+
+          <aside class="sidebar">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--active">
+                    <img src="./img/icon/sidebar/main_icon.png" alt="иконка" class="nav__icon">
+                    <a href="index.html" class="nav__title">главная</a>
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">
+                    <img src="./img/icon/sidebar/feed_icon.png" alt="иконка" class="nav__icon">
+                    <a href="comments.html" class="nav__title">отзывы</a>
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">
+                    <img src="./img/icon/sidebar/wallet_icon.png" alt="иконка" class="nav__icon">
+                    <a href="price.html" class="nav__title">тарифы</a>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+          <main class="main-content">
+            <section class="base">
+              <div class="title">
+                <h2>Особенности</h2>
+              </div>
+              <ul class="base__features">
+                <li class="base__plus">
+                  <div class="base__logo">
+                    <img class="base__icon" src="./img/icon/flower.png" alt="иконка">
+                  </div>
+                  <div class="base__spec">
+                    <div class="base__desc">
+                      <h5>уникальность</h5>
+                      <p>Создан для вашего комфортного отдыха</p>
+                    </div>
+                    <ul class="base__list">
+                      <li>Кофе/чай</li>
+                      <li>Шкаф (5 кг)</li>
+                      <li>Рабочее место</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="base__plus">
+                  <div class="base__logo">
+                    <img class="base__icon" src="./img/icon/mark-as-favorite-star.png" alt="иконка">
+                  </div>
+                  <div class="base__spec">
+                    <div class="base__desc">
+                      <h5>премиум-класс</h5>
+                      <p>Для любителей хороших впечатлений</p>
+                    </div>
+                    <ul class="base__list">
+                      <li>Обед+кофе</li>
+                      <li>Шкаф (10 кг)</li>
+                      <li>Детское кресло</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="base__plus">
+                  <div class="base__logo">
+                    <img class="base__icon" src="./img/icon/painter-palette.png" alt="иконка">
+                  </div>
+                  <div class="base__spec">
+                    <div class="base__desc">
+                      <h5>лакшери-стулья</h5>
+                      <p>Всё самое лучшее и незабываемое</p>
+                    </div>
+                    <ul class="base__list">
+                      <li>Джакузи</li>
+                      <li>Шкаф (15 кг)</li>
+                      <li>Табуретка</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="news">
+              <div class="title">
+                <h2>Последние новости</h2>
+              </div>
+              <ul class="news__list">
+                <li class="news__item">
+                  <img src="./img/news/news1.jpg" alt="" class="news__pic">
+                  <div class="news__desc">
+                    <div class="news__date">12.10.2016</div>
+                    <div class="news__head">
+                      <h4>Чёрная дыра скидок!</h4>
+                      <p class="news__text">Ключевым технологическим партнером GrowUp является дата-центр Миран,
+                        расположенный
+                        всего лишь в 500 метрах от здания, а значит, скорость интернета будет стабильной в любое время
+                        суток.
+                        Коворкинг работает в формате 24/7.
+                        Используйте шкаф для хранения личных вещей.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="news__item">
+                  <img src="./img/news/news2.jpg" alt="" class="news__pic">
+                  <div class="news__desc">
+                    <div class="news__date">01.02.2016</div>
+                    <div class="news__head">
+                      <h4>Заражай друзей, получай призы!</h4>
+                      <p class="news__text">Быть частью сообщества сильных, грамотных и увлеченных своим делом
+                        профессионалов
+                        - вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции,
+                        мастер-классы, встречи с инвесторами или менторами для резидентов.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="news__item">
+                  <img src="./img/news/news3.jpg" alt="" class="news__pic">
+                  <div class="news__desc">
+                    <div class="news__date">22.12.2015</div>
+                    <div class="news__head">
+                      <h4>Новое рабочее место для бизнесменов.</h4>
+                      <p class="news__text">Для резидентов коворкинга оборудована не только рабочая зона, но и зона
+                        отдыха.
+                        Она включает в себя: кухонную зону и зону релакса.
+                        Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: микроволновкой,
+                        чайником,
+                        кофе машиной, посудой.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="pagination">
+                <div class="pagination__display">Страница 1 из 7</div>
+                <div class="pagination__controls">
+                  <a href="#" class="pagination__button-prev">&lt;</a>
+                  <ul class="pagination__list">
+                    <li class="pagination__item pagination__item--active">
+                      <a href="#" class="pagination__link pagination__link--active">1</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">2</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">3</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">4</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">5</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">6</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link">7</a>
+                    </li>
+                  </ul>
+                  <a href="#" class="pagination__button-next">&gt;</a>
+                </div>
+              </div>
+            </section>
+          </main>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__sign">
+        <p>Cделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool.Автор работы: Колесник Карина</p>
+      </div>
+
+      <a href="/" class="footer__logo">
+        <img src="./img/logo-fig.png" class="footer__logo--pic" alt="Логотип коворкинга">
+      </a>
+      <div class="footer__social">
+        <p>Наши социальные сети</p>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="//vk.com" class="footer__link" target="_blank" title="vk">
+              <div class="footer__img footer__img--active">
+                <img src="./img/icon/social/vk.png" alt="vk" class="footer__link-pic">
+              </div>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="//facebook.com" class="footer__link" target="_blank" title="facebook">
+              <div class="footer__img">
+                <img src="./img/icon/social/fb.png" alt="facebook" class="footer__link-pic">
+              </div>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="//google.com" class="footer__link" target="_blank" title="google">
+              <div class="footer__img">
+                <img src="./img/icon/social/google.png" alt="google" class="footer__link-pic">
+              </div>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="//twitter.com" class="footer__link" target="_blank" title="twitter">
+              <div class="footer__img">
+                <img src="./img/icon/social/twitter.png" alt="twitter" class="footer__link-pic">
+              </div>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="mailto:kerryks@ya.ru" class="footer__link" target="_blank" title="mail">
+              <div class="footer__img">
+                <img src="./img/icon/social/mail.png" alt="mail" class="footer__link-pic">
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
 </body>
+
 </html>
